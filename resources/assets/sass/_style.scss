@@ -1,0 +1,81 @@
+.container {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.header {
+    color: white;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav {
+    padding-top: 30px;
+}
+
+.main {
+    color: white;
+    height: 800px;
+    background-image: url(https://playa.hk/content/uploads/2016/02/hk-view-1505x1080.jpg);
+    background-size: cover;
+
+}
+
+.slogan {
+    z-index: 2;
+    font-size: 50px;
+}
+
+.dimmed {
+  position: relative;
+}
+
+.dimmed:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 800px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(95, 245, 90, 0.5);
+}
+
+.showcase {
+    background: green;
+}
+
+.showcase-item {
+    border: 2px solid white;
+    padding: 0px;
+    height: 250px;
+}
+
+.banner {
+    color: white;
+    background: #1e73be;
+    height: 50px;
+    text-align: center;
+    padding: 6px 0px;
+}
+
+.footer {
+    color: white;
+    background: black;
+    height: 400px;
+
+}
+
+.right {
+    float: right;
+    clear: right;
+}
+
+.copyright {
+    font-size: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
